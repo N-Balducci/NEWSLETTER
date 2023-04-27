@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GreenGo - Green Mobility Services</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>GreenGo | Sustainable Mobility Solutions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		/* Styles for the environmental sustainability theme */
+		body {
+			background-color: #e6f4f1;
+			font-family: Arial, sans-serif;
+			color: #374b5a;
+		}
+        
+        .hero h2 {
+  color:rgb(27, 142, 251) /* Cambia il colore qui */
+}
+
+.hero {
+  position: relative;
+}
+
+
+
+body {
+  background-image: linear-gradient(to bottom right, #8bc34a, #4caf50, #009688, #00796b);
+}
+
+.hero-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.hero img {
+  filter: blur(5px);
+  width: 100%;
+}
+
+		.logo h1 {
+			color: #3aa889;
+		}
+		nav a {
+			color: #c5e4fd;
+		}
+		/* Styles for the values section */
+		.values {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			margin: 50px 0;
+		}
+		.value {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+			flex-basis: calc(33.333% - 20px);
+			margin: 10px;
+			padding: 20px;
+			max-width: 300px;
+			text-align: center;
+			transition: transform 0.2s ease-in-out;
+		}
+		.value:hover {
+			transform: translateY(-5px);
+			box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+		}
+		.value h3 {
+			color: #3aa889;
+			margin-top: 0;
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.value p {
+			margin: 20px 0;
+			font-size: 18px;
+			line-height: 1.5;
+		}
+		/* Styles for the CTA button */
+		.cta {
+			background-color: #3aa889;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			margin-top: 20px;
+			display: inline-block;
+			text-decoration: none;
+			transition: background-color 0.2s ease-in-out;
+		}
+		.cta:hover {
+			background-color: #259f76;
+		}
+
+        .navbar {
+		  display: flex;
+		  align-items: center;
+		  justify-content: space-between;
+		  background-color: #F9A11B;
+		  padding: 20px;
+		}
+
+		.navbar-brand {
+		  font-size: 30px;
+		  font-weight: bold;
+		  color: white;
+		  text-decoration: none;
+		}
+
+		.navbar-nav {
+		  display: flex;
+		  list-style: none;
+		}
+        .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+		.nav-item {
+		  margin-right: 30px;
+		}
+
+		.nav-link {
+		  color: rgb(255, 255, 255);
+		  text-decoration: none;
+		  font-size: 20px;
+		  font-weight: bold;
+		  transition: color 0.2s ease-in-out;
+		}
+
+		.nav-link:hover {
+		  color: #4F4F4F;
+		}
+		.hover {
+  transform: scale(1.1); /* ingrandisce l'elemento */
+  color: #fff; /* cambia il colore del testo */
+}
+
+/* Classe per l'effetto "shake" sull'elemento h2 */
+.shake {
+  animation: shake 1s ease-out; /* utilizza l'animazione "shake" per 1 secondo */
+}
+
+/* Definizione dell'animazione "shake" */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px) rotate(-5deg); }
+  50% { transform: translateX(0) rotate(0deg); }
+  75% { transform: translateX(5px) rotate(5deg); }
+  100% { transform: translateX(0) rotate(0deg); }
+}
+
+	</style>
+</head>
+<body>
+	<script>
+		// Seleziona l'elemento h2
+		var h2 = document.querySelector("h2");
+	
+		// Aggiungi un listener per l'evento "mouseover" all'elemento h2
+		h2.addEventListener("mouseover", function() {
+		  // Aggiungi la classe CSS "shake" all'elemento h2
+		  this.classList.add("shake");
+	
+		  // Rimuovi la classe CSS "shake" dall'elemento h2 dopo 1 secondo
+		  setTimeout(function() {
+			h2.classList.remove("shake");
+		  }, 1000);
+		});
+	  </script>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="WhatsApp Image 2023-04-20 at 19.27.36.jpeg" alt="GreenGo logo">
+		</div>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>Green Mobility Services for a Sustainable Future</h1>
+			<p>Choose the green mobility service that's right for you:</p>
+			<form action="submit-form.php" method="post">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div class="form-group">
+					<label for="surname">Surname:</label>
+					<input type="text" id="surname" name="surname" required>
+				</div>
+                <div class="form-group">
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                    <small>Enter a 10-digit phone number without spaces or dashes.</small>
+                  </div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name=mail" required>
+				</div>
+				<div class="form-group">
+					<label for="service">Select a service:</label>
+					<select id="service" name="service" required>
+						<option value="">Select a service</option>
+						<option value="bike">Bike Sharing</option>
+						<option value="scooter">Scooter Sharing</option>
+						<option value="car">Car Sharing</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="location">Select a location:</label>
+					<select id="location" name="location" required>
+						<option value="">Select a location</option>
+						<option value="rome">Rome</option>
+						<option value="milan">Milan</option>
+						<option value="florence">Florence</option>
+					</select>
+				</div>
+                <div class="form-group">
+                    <label for="date">Pickup date:</label>
+                    <input type="date" id="date" name="date" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="time">Pickup time:</label>
+                    <input type="time" id="time" name="time" required>
+                  </div>
+				<button type="submit">Submit</button>
+                <p>Thank you for your submission! Our operator will contact you shortly to confirm your booking.</p>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 GreenGo - All Rights Reserved</p>
+	</footer>
+</body>
+</html>
